@@ -109,7 +109,7 @@ Download-Cradle.ps1.
 ``
 ***
  **Step 4: Write the custom download cradle function** 
- _In the Download-Cradle.ps1 file, write the following custom download cradle function: _
+ _In the Download-Cradle.ps1 file, write the following custom download cradle function:_
 ```
 powershell function Invoke-DownloadCradle { param ( [Parameter(Mandatory=$true)][string] $Url, [Parameter(Mandatory=$true)][string] $DestinationPath) 
 ```
